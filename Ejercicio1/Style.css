@@ -1,0 +1,24 @@
+html, body{
+    height: 95vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100;
+}
+
+.hd, .main, .footer{
+    background-color: aqua;
+    height: 100%;
+
+}
+.main{
+    margin: 1em 0em;
+
+}
+
+.hd, .footer{
+    flex-basis: 20%;
+}
