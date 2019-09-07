@@ -1,0 +1,51 @@
+.body{
+    background-color:beige;
+}
+
+.hd{
+    display: flex;
+    height: 40px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    margin: 1em 0em;
+    justify-content: space-between;
+}
+.sec1{
+    display: flex;
+    height: 490px;
+    width: 32%;
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+.sec2{
+    display: flex;
+    height: 490px;
+    width: 32%;
+    border: 1px solid aqua;
+    background-color: aqua;
+
+}
+
+.sec3{
+    display: flex;
+    height: 490px;
+    width: 32%;
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+.footer{
+    display: flex;
+    height: 40px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hd, .footer{
+    flex-basis: 20%;
+}
